@@ -1,0 +1,13 @@
+%problem variables
+
+NUM_VARIABLES     = 3
+NUM_DISCRETE_VARS = 2
+NUM_OBJ_FUNCTIONS = 1
+
+VAR_LOWER = 0, 0, 0
+VAR_UPPER = 10, 5, 3
+VAR_LOWER_RIGID = true, false, false
+VAR_UPPER_RIGID = true, true, true
+
+%If this is maximization problem, then 1 else -1
+MAXM = 1

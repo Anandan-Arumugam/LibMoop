@@ -1,0 +1,47 @@
+%this is a comment
+
+MAX_POP_SIZE = 20
+MAX_GENERATIONS = 10
+MAX_RUNS = 3
+
+%This comment can be edited
+XOVER_PROBABILITY = 0.45
+UNIFORM_CROSSOVER_RATE = 0.15
+MUTATION_PROBABILITY = 0.25
+MUTATION_DISTRIBUTION = ?
+CROSSOVER_DISTRIBUTION = ?
+
+%CROSSOVER_TYPE = 0 (SBX)
+%CROSSOVER_TYPE = 1 (BLX)			
+
+CROSSOVER_TYPE = 1
+
+CHROMOSOME_LENGTH = 200
+BINARY_OR_REAL = b
+
+%Tournament parameters
+TOUR_SIZE = 10
+
+%statistics
+SHARING = 1
+SIGMA_SHARE = ?
+
+
+SAVE_TO_FILE = true
+
+algorithm = SimpleGA
+selection_operator = BinaryTournament
+crossover_operator = UniformBinaryCrossover
+mutation_operator = SingleBitBinaryMutation
+
+MUTATION_DISTRIBUTION = 0.65
+
+
+%generations?
+%maxpop?
+%xover prob?
+%mutation prob?
+%number of vars(max 30)?
+%binary or real?
+%lower and upper bounds of variables?
+
